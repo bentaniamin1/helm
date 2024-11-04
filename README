@@ -1,0 +1,11 @@
+Check if chart is valid "helm lint ."
+
+Check value substitute vars in the template  "helm template ."
+
+--dry-run command to check.
+Pretend to install the chart to the cluster 
+and if there is some issue it will show the error.
+"helm install --dry-run my-release nginx-chart"
+
+"helm install frontend nginx-chart"
+"helm uninstall <name-release>"
