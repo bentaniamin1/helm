@@ -1,0 +1,18 @@
+replicaCount: 1
+
+image :
+  name: nginx
+  tag: latest
+  pullPolicy: IfNotPresent
+  volume:
+    name: nginx-index-file
+    path: /usr/share/nginx/html/
+
+service: 
+  name: nginx-service
+  type: ClusterIP
+  port: 80
+  targetPort: 9000
+
+env: 
+  name: dev
