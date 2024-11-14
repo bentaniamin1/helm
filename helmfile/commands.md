@@ -22,3 +22,5 @@ Uninstall helmchart:
 
 Chart push on Github : 
 helm repo index . --url https://bentaniamin1.github.io/[name_repo]
+activate github pages 
+helm package . -> to change format in .tgz
