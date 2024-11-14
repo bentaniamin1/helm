@@ -1,0 +1,9 @@
+repositories:
+  - name: test-helm-file
+    url: https://github.com/rahulwagh/helmchart/blob/master/helloworld
+
+releases:
+  - name: test-helm-file
+    chart: ./test-helm-file
+    # if i want start helmchart with helmfile version 
+    installed: false
