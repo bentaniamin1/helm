@@ -24,3 +24,9 @@ Chart push on Github :
 helm repo index . --url https://bentaniamin1.github.io/[name_repo]
 activate github pages 
 helm package . -> to change format in .tgz
+
+current location chart in github : https://bentaniamin1.github.io/helm/helmfile/test-helm-file -> change in  helmfile.yaml
+
+
+uninstall all in helm : 
+helm uninstall $(helm list -a -q)

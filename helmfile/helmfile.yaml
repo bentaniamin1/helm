@@ -6,3 +6,13 @@ releases:
     chart: ./test-helm-file
     # if i want start helmchart with helmfile version 
     installed: false
+    repositories:
+  - name: test-helm-file
+    url: https://bentaniamin1.github.io/helm/helmfile/test-helm-file
+#     # if i want start helmchart with helmfile version 
+    installed: true
+    # if i want multiple charts
+  # - name: test-helm-file1
+  #   chart: ./test-helm-file1
+  #   # if i want start helmchart with helmfile version 
+  #   installed: false
