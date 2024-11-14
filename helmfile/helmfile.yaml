@@ -1,7 +1,6 @@
 repositories:
   - name: test-helm-file
-    url: https://github.com/rahulwagh/helmchart/blob/master/helloworld
-
+    url: https://github.com/bentaniamin1/helm/tree/main/helmfile/test-helm-file
 releases:
   - name: test-helm-file
     chart: ./test-helm-file

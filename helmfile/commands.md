@@ -18,3 +18,7 @@ Test helmfile:
 Uninstall helmchart:
     - Change in the helmfile.yaml the attribute installed to false 
     - helmfile sync 
+
+
+Chart push on Github : 
+helm repo index . --url https://bentaniamin1.github.io/[name_repo]
