@@ -1,0 +1,6 @@
+prometheus:
+  prometheusSpec:
+    additionalScrapeConfigs:
+    - job_name: 'mongodb'
+      static_configs:
+      - targets: ['mongodb-exporter:9216']
